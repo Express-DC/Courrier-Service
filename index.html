@@ -663,8 +663,6 @@ body{
 <!-- ══ NAVBAR ══ -->
 <nav class="navbar" id="navbar">
   <a class="logo-wrap" href="#" onclick="showPage('home');return false;">
-
-    <!-- ══ ANIMATED GLOBE LOGO ══ -->
     <svg class="logo-svg-wrap" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow:visible;width:48px;height:48px;">
       <defs>
         <clipPath id="globe-clip"><circle cx="24" cy="24" r="17"/></clipPath>
@@ -693,7 +691,6 @@ body{
       </g>
       <ellipse cx="18" cy="17" rx="5.5" ry="3.5" fill="white" opacity="0.06"/>
     </svg>
-
     <div class="logo-text-block">
       <span class="logo-brand">Swift-<span class="logo-accent">Express</span> <span class="logo-delivery">-Delivery-Company</span></span>
       <span class="logo-sub">✈️-Always at your Service-🚚</span>
@@ -762,11 +759,10 @@ body{
       </div>
     </div>
     <div class="cards-grid">
-
       <div class="service-card reveal">
         <div class="scard-visual">
           <div class="scard-livery"></div>
-          <img class="scard-bg" src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=85" alt="Swift Express Air Freight"/>
+          <img class="scard-bg" src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=85" alt="Air Freight"/>
           <div class="scard-brand-plate">
             <div class="scard-brand-name">Swift<em>Express</em></div>
             <svg class="scard-logo-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow:visible;width:26px;height:26px;">
@@ -798,7 +794,7 @@ body{
       <div class="service-card reveal">
         <div class="scard-visual">
           <div class="scard-livery"></div>
-          <img class="scard-bg" src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=85" alt="Swift Express Road Freight"/>
+          <img class="scard-bg" src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=85" alt="Road Freight"/>
           <div class="scard-brand-plate">
             <div class="scard-brand-name">Swift<em>Express</em></div>
             <svg class="scard-logo-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow:visible;width:26px;height:26px;">
@@ -830,7 +826,7 @@ body{
       <div class="service-card reveal">
         <div class="scard-visual">
           <div class="scard-livery"></div>
-          <img class="scard-bg" src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=85" alt="Swift Express Ocean Freight"/>
+          <img class="scard-bg" src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=85" alt="Ocean Freight"/>
           <div class="scard-brand-plate">
             <div class="scard-brand-name">Swift<em>Express</em></div>
             <svg class="scard-logo-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow:visible;width:26px;height:26px;">
@@ -862,7 +858,7 @@ body{
       <div class="service-card reveal">
         <div class="scard-visual">
           <div class="scard-livery"></div>
-          <img class="scard-bg" src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=85" alt="Swift Express International Freight"/>
+          <img class="scard-bg" src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=85" alt="International Freight"/>
           <div class="scard-brand-plate">
             <div class="scard-brand-name">Swift<em>Express</em></div>
             <svg class="scard-logo-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow:visible;width:26px;height:26px;">
@@ -890,7 +886,6 @@ body{
           <a href="#" class="scard-link" onclick="showPage('services');return false;">Learn More <svg viewBox="0 0 11 11" fill="none"><path d="M1 5.5h9M6 1l4 4.5L6 10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -1066,7 +1061,7 @@ body{
       </div>
     </div>
   </div>
-</div><!-- /about -->
+</div>
 
 
 <!-- ══════════════ SERVICES PAGE ══════════════ -->
@@ -1086,7 +1081,7 @@ body{
       <a href="#" class="btn-gold" onclick="showPage('contact');return false;">Contact Us</a>
     </div>
   </div>
-</div><!-- /services -->
+</div>
 
 
 <!-- ══════════════ APPOINTMENT PAGE ══════════════ -->
@@ -1112,7 +1107,7 @@ body{
       <button class="btn-submit" onclick="showModal('appt-modal')">Confirm Appointment</button>
     </div>
   </div>
-</div><!-- /appointment -->
+</div>
 
 
 <!-- ══════════════ CONTACT PAGE ══════════════ -->
@@ -1159,7 +1154,7 @@ body{
       <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Does Swift Express handle customs clearance?<div class="faq-arrow"><svg viewBox="0 0 10 10" fill="none"><path d="M2 3.5L5 6.5 8 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div></div><div class="faq-a">Yes — our expert team ensures full customs compliance for every international shipment, making the clearance process smooth and hassle-free.</div></div>
     </div>
   </div>
-</div><!-- /contact -->
+</div>
 
 
 <!-- ══ FOOTER ══ -->
@@ -1330,33 +1325,32 @@ const barsObserver=new IntersectionObserver((entries)=>{
 const barsEl=document.querySelector('.progress-section');
 if(barsEl)barsObserver.observe(barsEl);
 
-/* ── TRACKING — JSONBin.io backend ──
-   Bin holds an object keyed by tracking ID, e.g.:
-   {
-     "SWEX-2025-78432": {
-       "id":"SWEX-2025-78432","status":"In Transit",
-       "origin":"Sydney, Australia","destination":"London, UK",
-       "created":"2025-06-01T09:00:00","eta":"2025-06-10",
-       "history":[
-         {"location":"Departed Sydney Depot","status":"Dispatched","time":"2025-06-01T14:00:00"},
-         {"location":"Arrived Dubai Transit Hub","status":"In Transit","time":"2025-06-04T08:30:00"}
-       ]
-     }
-   }
-   Update the bin's content (via the JSONBin dashboard, or a PUT request using
-   the Master Key from your own backend — never from this front-end file) to
-   push new tracking statuses live to the site. */
-const JSONBIN_BIN_ID = '6a42036ff5f4af5e293fbe91';
+/* ════════════════════════════════════════════
+   TRACKING — reads from the same JSONBin used
+   by the admin backend.
+
+   The backend stores data as:
+     { shipments: { "SWEX-YYYY-NNNNN": { ...shipment } } }
+
+   The frontend reads shipments from data.record.shipments,
+   with a fallback to data.record for flat/legacy bins.
+════════════════════════════════════════════ */
+const JSONBIN_BIN_ID    = '6a42036ff5f4af5e293fbe91';
 const JSONBIN_ACCESS_KEY = '$2a$10$VhKQ637EoLR/qmEAR2Z.XuaWAGubH7O4BSstH1qXGbGCnkYLMkkz.';
-const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest`;
+const JSONBIN_URL       = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest`;
 
 async function fetchShipments(){
   const res = await fetch(JSONBIN_URL, {
     headers: { 'X-Access-Key': JSONBIN_ACCESS_KEY }
   });
-  if(!res.ok) throw new Error('JSONBin request failed: '+res.status);
+  if(!res.ok) throw new Error('JSONBin request failed: ' + res.status);
   const data = await res.json();
-  return data.record || {};
+  /*
+   * Backend saves: { shipments: { "SWEX-...": { ...} } }
+   * Legacy/flat:   { "SWEX-...": { ...} }
+   * Support both.
+   */
+  return data.record?.shipments || data.record || {};
 }
 
 function fmtTrackDate(iso){
@@ -1382,42 +1376,57 @@ async function doTrack(){
 
   try{
     const shipments = await fetchShipments();
-    // Tolerate case differences in how keys were saved in the bin
-    const key = Object.keys(shipments).find(k=>k.toUpperCase()===val);
+    // Case-insensitive key match
+    const key = Object.keys(shipments).find(k => k.toUpperCase() === val);
     const s = key ? shipments[key] : null;
 
     if(!s){
-      statusEl.textContent='No shipment found for tracking ID: '+val;
-      stepsEl.innerHTML='<li style="color:rgba(255,255,255,.55);font-size:.83rem;padding:.7rem 0;border:none;">Please double-check your tracking number and try again. If you believe this is an error, contact us at info@swiftexpressdelivery.com</li>';
+      statusEl.textContent = 'No shipment found for tracking ID: ' + val;
+      stepsEl.innerHTML = '<li style="color:rgba(255,255,255,.55);font-size:.83rem;padding:.7rem 0;border:none;">Please double-check your tracking number and try again. If you believe this is an error, contact us at info@swiftexpressdelivery.com</li>';
       resultEl.classList.add('show');
       btn.textContent='Track';btn.disabled=false;
       return;
     }
 
-    statusEl.textContent='Tracking: '+s.id+'  ·  Status: '+s.status;
-    const steps=[];
-    steps.push({label:'Shipment Created — '+s.origin,time:fmtTrackDate(s.created),done:true});
-    (s.history||[]).forEach(h=>{steps.push({label:h.location+(h.status?' ['+h.status+']':''),time:fmtTrackDate(h.time),done:true});});
-    const delivered=(s.status==='Delivered');
-    steps.push({label:delivered?'Delivered — '+s.destination:'Expected Delivery — '+s.destination,time:delivered?'Delivered ✓':'Expected: '+fmtDateOnly(s.eta),done:delivered,current:!delivered});
-    stepsEl.innerHTML=steps.map((step,i)=>`
+    statusEl.textContent = 'Tracking: ' + s.id + '  ·  Status: ' + s.status;
+
+    const steps = [];
+    // Use senderName/origin from admin backend fields
+    const originLabel = s.origin || 'Origin';
+    steps.push({label:'Shipment Created — ' + originLabel, time:fmtTrackDate(s.created || s.dateShipped), done:true});
+
+    (s.history || []).forEach(h => {
+      steps.push({label: h.location + (h.status ? ' [' + h.status + ']' : ''), time:fmtTrackDate(h.time), done:true});
+    });
+
+    const delivered = (s.status === 'Delivered');
+    const destLabel = s.destination || 'Destination';
+    steps.push({
+      label: delivered ? 'Delivered — ' + destLabel : 'Expected Delivery — ' + destLabel,
+      time:  delivered ? 'Delivered ✓' : 'Expected: ' + fmtDateOnly(s.eta),
+      done:  delivered,
+      current: !delivered
+    });
+
+    stepsEl.innerHTML = steps.map((step, i) => `
       <li>
         <div class="step-indicator">
-          <span class="step-dot ${step.done?'done':step.current?'current':''}"></span>
-          ${i<steps.length-1?'<div class="step-line"></div>':''}
+          <span class="step-dot ${step.done ? 'done' : step.current ? 'current' : ''}"></span>
+          ${i < steps.length - 1 ? '<div class="step-line"></div>' : ''}
         </div>
         <div class="step-info">
           <strong>${step.label}</strong>
           <span class="step-loc">${step.time}</span>
         </div>
       </li>`).join('');
+
     resultEl.classList.add('show');
-  }catch(err){
+  } catch(err){
     console.error(err);
-    statusEl.textContent='Unable to reach tracking service right now.';
-    stepsEl.innerHTML='<li style="color:rgba(255,255,255,.55);font-size:.83rem;padding:.7rem 0;border:none;">Please try again shortly, or contact us at info@swiftexpressdelivery.com</li>';
+    statusEl.textContent = 'Unable to reach tracking service right now.';
+    stepsEl.innerHTML = '<li style="color:rgba(255,255,255,.55);font-size:.83rem;padding:.7rem 0;border:none;">Please try again shortly, or contact us at info@swiftexpressdelivery.com</li>';
     resultEl.classList.add('show');
-  }finally{
+  } finally {
     btn.textContent='Track';btn.disabled=false;
   }
 }
